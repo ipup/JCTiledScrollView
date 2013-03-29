@@ -579,6 +579,9 @@
 
 - (void)removeAllAnnotations
 {
+    _currentSelectedAnnotationTuple = nil;
+    _previousSelectedAnnotationTuple = nil;
+
   [self removeAnnotations:[_annotations allObjects]];
 }
 
