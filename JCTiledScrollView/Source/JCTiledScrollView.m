@@ -147,8 +147,6 @@
   [_annotations release];
   [_visibleAnnotations release];
   [_recycledAnnotationViews release];
-  [_previousSelectedAnnotationTuple release];
-    [_currentSelectedAnnotationTuple release];
 
 	[super dealloc];
 }
