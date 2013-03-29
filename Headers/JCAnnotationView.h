@@ -31,7 +31,7 @@
 
 @protocol JCAnnotation;
 
-@interface JCAnnotationView : UIView
+@interface JCAnnotationView : UIControl
 
 @property (nonatomic, retain) id<JCAnnotation> annotation;
 @property (nonatomic, assign) CGPoint position;
