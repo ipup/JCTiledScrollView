@@ -34,13 +34,13 @@
 @interface JCPDFTiledView ()
 @end
 
-static const CGFloat kDefaultTileSize = 256.;
+static const CGFloat kJCDefaultTileSize = 256.;
 
 @implementation JCPDFTiledView
 
 - (CGSize)tileSize;
 {
-  return CGSizeMake(kDefaultTileSize, kDefaultTileSize);
+  return CGSizeMake(kJCDefaultTileSize, kJCDefaultTileSize);
 }
 
 - (void)drawRect:(__unused CGRect)rect

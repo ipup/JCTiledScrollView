@@ -31,7 +31,7 @@
 #import "JCTiledLayer.h"
 #import "math.h"
 
-static const CGFloat kDefaultTileSize = 256.0f;
+static const CGFloat kJCDefaultTileSize = 256.0f;
 
 @interface JCTiledView ()
 - (JCTiledLayer *)tiledLayer;
@@ -70,7 +70,7 @@ static const CGFloat kDefaultTileSize = 256.0f;
 
 - (CGSize)tileSize
 {
-  return CGSizeMake(kDefaultTileSize, kDefaultTileSize);
+  return CGSizeMake(kJCDefaultTileSize, kJCDefaultTileSize);
 }
 
 - (size_t)numberOfZoomLevels
