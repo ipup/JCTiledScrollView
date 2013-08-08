@@ -136,10 +136,11 @@
 
 - (void)dealloc
 {
+    _tiledView.delegate = nil;
+    [_tiledView release];
+    
     _scrollView.delegate = nil;
   [_scrollView release];
-    _tiledView.delegate = nil;
-  [_tiledView release];
   [_canvasView release];
     
   [_singleTapGestureRecognizer release];
